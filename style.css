@@ -1,0 +1,237 @@
+#offers {
+    text-decoration: underline;
+    font-weight: bold;
+    text-align: center;
+    background-image: linear-gradient(
+        to right,
+        red,
+        green,
+        yellow
+    );
+    margin-top: 0;
+    word
+}
+.head {
+    border: 4px solid blue;
+    background-color: crimson;
+    border-radius: 10px;
+    width: 50%;
+    
+    
+
+}
+#material {
+    border: 2px solid brown;
+    background-color: aquamarine;
+    position: relative;
+    height: 118px;
+    margin-right: 0;
+}
+.text1 {
+    border: 2px solid rgb(75, 153, 51);
+    position: absolute;
+    height: 55px;
+    width: 440px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: aqua;
+    
+}
+.text2
+{
+    border: 2px solid green;
+    position: absolute;
+    width: 445px;
+    margin-left: 445px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: aqua;
+    
+}
+.text3
+{
+    border: 2px solid green;
+    position: absolute;
+    width: 445px;
+    margin-left: 896px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: aqua;
+    
+}
+
+.text4
+{
+    border: 2px solid green;
+    position: absolute;
+    width: 450px;
+    margin-top: 59px;
+    margin-left: 444px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: aqua;
+    
+}
+.inform
+{
+    text-decoration: underline brown;
+    font-weight: bold;
+    background-image: linear-gradient(
+        to right,
+        red,
+        yellow,
+        red
+    );
+    text-align: center;
+    height: 30px;
+}
+#candidate
+{
+    border: 2px solid rgb(233, 19, 19);
+    background-image: radial-gradient(
+        
+        aqua ,
+        blue,
+        yellowgreen
+        
+    );
+    height: 150px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.student
+{
+    border: 2px solid rgb(47, 231, 255);
+    background-color: rgb(238, 255, 0);
+    height: 70px;
+    width: 155px;
+    margin-top: 30px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: underline;
+    padding-top: 10px;
+}
+.grid-container
+{
+    background-color: rgb(247, 244, 243);
+    /* padding: 5px; */
+   
+    height: 340px;
+    display: grid;
+    grid-template-columns: repeat(6,auto );
+    /* grid-template-columns: 1fr 2fr 3fr 4fr 5fr 6fr; */
+    grid-template-rows: repeat(6, auto);
+    
+}
+.item
+{
+    /* background-color: tomato; */
+    /* padding: 2px; */
+    margin: 2px;
+}
+
+.item1
+{
+    background-color: rgb(255, 83, 71);
+    grid-column-start: 1;
+    grid-column-end: 7;
+    text-align: center;
+    padding-top: 10px;
+    height: 25px;
+    
+
+}
+.item2
+{
+    background-color: rgb(47, 224, 255);
+   grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    column-gap: 0;
+    row-gap: 0;
+    text-align: center;
+    /* height: 65px; */
+    padding-top: 25px;
+    /* font-weight: bold; */
+    font-family: 'Franklin Gothic Medium';
+    width: 400px;
+    margin-top: 15px;
+}
+.item3
+{
+    background-color: rgb(72, 224, 11);
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    text-align: center;
+    /* height: 45px; */
+    width: 400px;
+    margin-top: 15px;
+    font-family: 'Franklin Gothic Medium';
+    padding-top: 20px;
+}
+.item4
+{
+    background-color: indigo;
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    text-align: center;
+    /* height: 65px; */
+    width: 400px;
+    margin-top: 15px;
+    font-family: 'Franklin Gothic Medium';
+    padding-top: 20px;
+}
+.item5
+{
+    background-color: orange;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 3;
+    grid-row-end: 6;
+    text-align: center;
+    row-gap: 0;
+    font-family: 'Franklin Gothic Medium';
+    padding-top: 50px;
+
+}
+.item6
+{
+    background-color:crimson;
+    grid-column-start: 6;
+    grid-column-end: 7;
+    width: 100px;
+    grid-row-start: 2;
+    grid-row-end: 6;
+    padding-left: 0px;
+    list-style-position: inside;
+   padding-left: 0px;
+   margin-top: 15px;
+  
+}
+.item7
+{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    margin-top: 15px;
+    text-align: center;
+    height: 25px;
+    font-family: 'Franklin Gothic Medium';
+}
+
+
+
+
+
+
+
+
+
+
+
+
