@@ -216,6 +216,7 @@
 }
 .item7
 {
+    background-color: darkred;
     grid-column-start: 1;
     grid-column-end: 7;
     margin-top: 15px;
